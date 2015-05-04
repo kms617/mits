@@ -1,0 +1,2 @@
+MITs
+A productivity app to keep track of your daily Most Important Tasks cleanly and simply.
