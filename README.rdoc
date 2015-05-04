@@ -1,2 +1,17 @@
 MITs
 A productivity app to keep track of your daily Most Important Tasks cleanly and simply.
+
+
+  Table          
+  +----------------+  
+  |  Task          |  
+  +----------------+  
+  |  timestamp     |  
+  |  completed_at  |  
+  |  name (string) |  
+  |  priority (int)|  
+  +----------------+  
+                      
+  the timestamp is to keep track of datetime of creation
+  completed_at is a timestamp for keeping track of completion  
+  priority (1, 2 or 3) (user can view tasks alpha, priority or order entered)
