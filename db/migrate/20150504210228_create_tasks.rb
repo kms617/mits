@@ -4,7 +4,6 @@ class CreateTasks < ActiveRecord::Migration
       t.timestamps
       t.datetime :completed_at
       t.string :name
-      t.integer :priority
     end
   end
 end

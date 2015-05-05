@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 20150504210228) do
     t.datetime "updated_at"
     t.datetime "completed_at"
     t.string   "name"
-    t.integer  "priority"
   end
 
 end
