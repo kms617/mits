@@ -8,8 +8,7 @@ feature 'user creates a task' do
     fill_in "task_name", with: task.name
     click_button "commit"
 
-    expect(page).to have_content("Task successfully submitted")
-    expect(page).to have_content(task.name)
+    expect(page).to have_content("task created")
   end
 
   scenario 'user submits a blank form' do
@@ -17,7 +16,7 @@ feature 'user creates a task' do
 
     click_button "commit"
 
-    expect(page).to have_content("There was a problem, please try again.")
-    expect(page).to have_content("can't be blank.")
+    expect(page).to have_content("task failed, try again")
+    expect(page).to have_content("can't be blank")
   end
 end
