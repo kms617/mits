@@ -8,7 +8,7 @@ class TasksController < ApplicationController
 
     if @task.save
       flash[:notice] = t('flashes.tasks.create.success')
-      render :new
+      redirect_to new_task_path
     else
       flash[:alert] = t('flashes.tasks.create.failure')
       render :new

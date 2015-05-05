@@ -1,0 +1,6 @@
+<h1>what do you want to get done today?</h1>
+<p>input your MITs, Most Important Tasks, for today</p>
+<%= simple_form_for @task do |f| %>
+  <%= f.input :name, label: false %>
+  <%= f.button :submit %>
+<% end %>

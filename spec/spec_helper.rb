@@ -3,6 +3,7 @@ require File.expand_path("../../config/environment", __FILE__)
 
 require 'rspec/rails'
 require 'shoulda/matchers'
+require 'capybara/rails'
 
 Dir[Rails.root.join('spec/support/**/*.rb')].each { |file| require file }
 RSpec.configure do |config|
