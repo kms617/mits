@@ -9,8 +9,8 @@ en:
   flashes:
     tasks:
       create:
-        success: You have successfully created a task.
-        failure: There was a problem creating this task. Please try again.
+        success: task created
+        failure: task failed, try again
 
   helpers:
     submit:
