@@ -1,8 +1,8 @@
 $base-spacing: 1.5em !default;
-$alert-color: #fff6bf !default;
+$alert-color: #A3A3A3 !default;
 $error-color: #fbe3e4 !default;
-$notice-color: #e5edf8 !default;
-$success-color: #e6efc2 !default;
+$notice-color: #E6E6E6 !default;
+$success-color: #F6F6F6 !default;
 
 @mixin flash($color) {
   background-color: $color;
