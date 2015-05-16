@@ -1,7 +1,9 @@
-section.tasks {
-
-  div.task-form {
-    @include shift(4);
-    align-items: left;
-  }
+div.task-title {
+  @include shift(3);
+}
+form.new_task {
+  @include span-columns(6);
+  @include shift(3);
+  align-items: left;
+  clear: both;
 }

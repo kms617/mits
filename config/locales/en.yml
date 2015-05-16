@@ -9,8 +9,8 @@ en:
   flashes:
     tasks:
       create:
-        success: task created
-        failure: task failed, try again
+        success: committed
+        failure: try again
 
   helpers:
     submit:
