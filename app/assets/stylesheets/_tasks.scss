@@ -1,0 +1,7 @@
+section.tasks {
+
+  div.task-form {
+    @include shift(4);
+    align-items: left;
+  }
+}
