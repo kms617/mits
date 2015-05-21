@@ -10,7 +10,7 @@ en:
     tasks:
       create:
         success: committed
-        failure: try again
+        failure: submit three unique tasks
 
   helpers:
     submit:
